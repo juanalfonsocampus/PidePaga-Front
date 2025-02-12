@@ -51,7 +51,7 @@ document.addEventListener("DOMContentLoaded", function () {
             localStorage.setItem("adminId", data.id); // Asumiendo que el backend devuelve un ID
 
             alert("Registro exitoso.");
-            window.location.href = "productos.html"; // Redirigir a la página principal
+            window.location.href = "index.html"; // Redirigir a la página principal
 
         } catch (error) {
             console.error("Error:", error);

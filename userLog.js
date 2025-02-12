@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", function () {
             localStorage.setItem("token", data.token);
 
             alert("Inicio de sesión Exitoso.");
-            window.location.href = "productos.html"; // Redirigir a la página principal
+            window.location.href = "order.html"; // Redirigir a la página principal
 
         } catch (error) {
             console.error("Error:", error);
