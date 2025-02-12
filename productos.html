@@ -18,7 +18,7 @@
         <a href="#home" class="active">Productos</a>
         <a href="/gestionarPedido.html">Gestionar pedidos</a>
         <a href="/adminSign.html">Crear admin</a>
-        <a href="#contact">Cerrar sesión</a>
+        <a href="#contact" onclick="logout()">Cerrar sesión</a>
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
           <i class="fa fa-bars"></i>
         </a>
@@ -92,8 +92,7 @@
 </html>
 
 
-</body>
-
+<script src="/logout.js"></script>
 <script>
     function myFunction() {
       var x = document.getElementById("myTopnav");
